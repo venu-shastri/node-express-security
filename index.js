@@ -42,8 +42,8 @@ passport.use(new JwtStrategy(opts, function(jwt_payload, done) {
 }));
 
 passport.use(new GoogleStrategy({
-    clientID: "1046392473458-ct3m9ck6u9ivitlgf0m78168mtjcvreh.apps.googleusercontent.com",
-    clientSecret: "aP1wYzbKbsEJIY5sXxlK-kAI",
+    clientID: "",
+    clientSecret: "",
     callbackURL: "http://127.0.0.1:5000/googleRedirect"
   },
   //verify function
